@@ -18,22 +18,7 @@ This project aims to demonstrate CRUD (Create, Read, Update, Delete) operations 
 ## Setup Instructions
 1. **Install PostgreSQL**: Ensure PostgreSQL is installed and running on your system. Create a database named `Students`.
 
-2. **Create the `students` Table**: Log into your PostgreSQL client and execute the following SQL commands to create the required table and insert the initial data:
-
-    ```sql
-    CREATE TABLE students (
-      student_id SERIAL PRIMARY KEY,
-      first_name TEXT NOT NULL,
-      last_name TEXT NOT NULL,
-      email TEXT NOT NULL UNIQUE,
-      enrollment_date DATE
-    );
-
-    INSERT INTO students (first_name, last_name, email, enrollment_date) VALUES
-    ('John', 'Doe', 'john.doe@example.com', '2023-09-01'),
-    ('Jane', 'Smith', 'jane.smith@example.com', '2023-09-01'),
-    ('Jim', 'Beam', 'jim.beam@example.com', '2023-09-02');
-    ```
+2. **Create the `students` Table** by Downloading the `database_creation.sql` file and executing it in your PostgreSQL environment. 
 
 ## Application Setup
 1. **Install Dependencies**: Open a terminal in the project directory and run the following command to install the required Python library:
