@@ -52,6 +52,6 @@ This project aims to demonstrate CRUD (Create, Read, Update, Delete) operations 
 
 ## Running the Application
 Navigate to the project directory in your terminal and execute the Python script:
-    ```bash
+    ```
     python script_name.py
     ```
