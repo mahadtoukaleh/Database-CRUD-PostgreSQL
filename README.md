@@ -53,5 +53,5 @@ This project aims to demonstrate CRUD (Create, Read, Update, Delete) operations 
 ## Running the Application
 Navigate to the project directory in your terminal and execute the Python script:
     ```
-    python script_name.py
+    python database_operations.py
     ```
