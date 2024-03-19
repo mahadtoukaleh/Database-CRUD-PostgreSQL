@@ -45,7 +45,6 @@ def deleteStudent(student_id):
     conn.close()
 
 def resetAndRepopulateTable():
-    """removes everything and resets to original"""
     conn = psycopg2.connect(**conn_params)
     cur = conn.cursor()
     cur.execute("TRUNCATE TABLE students RESTART IDENTITY;")
